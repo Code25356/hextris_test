@@ -80,7 +80,7 @@ function Hex(sideLength) {
 				}
 				else {
 					block.settled = 0;
-					block.iter = 1.5 + (waveone.difficulty/15) * 3;
+					block.iter = 2 + (waveone.difficulty/15) * 3;
 				}
 			}
 		} else {
