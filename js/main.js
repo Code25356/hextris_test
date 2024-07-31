@@ -35,7 +35,7 @@ function scaleCanvas() {
 
 function setBottomContainer() {
     var buttonOffset = $("#buttonCont").offset().top;
-    var playOffset = trueCanvas.height / 2 + 100 * settings.scale;
+    var playOffset = trueCanvas.height / 2 + 200 * settings.scale;
     var delta = buttonOffset - playOffset - 29;
     if (delta < 0) {
         $("#bottomContainer").css("margin-bottom", "-" + Math.abs(delta) + "px");
